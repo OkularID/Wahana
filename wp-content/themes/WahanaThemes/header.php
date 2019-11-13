@@ -30,6 +30,9 @@
 
 <section class="navSection">
     <style>
+        #navbar_wahana{position: fixed;}
+        .shownnav{display: block !important;}
+        .hiddennav{display: inline !important;}
         ._navbar {
             z-index: 10;
             position: absolute;
@@ -53,7 +56,7 @@
             top: 10px !important;
         }
     </style>
-    <div class="container-fluid _navbar">
+    <div class="container-fluid _navbar" id="navbar_wahana">
         <div class="row">
             <div class="col-lg-2 pl-lg-5p">
                 <img class="img-fluid _logo" src="<?php bloginfo('stylesheet_directory');?>/images/home/logo.png"/>
