@@ -28,6 +28,66 @@
 </head>
 <body>
 
-<section>
-
+<section class="navSection">
+    <style>
+        ._navbar {
+            z-index: 10;
+            position: absolute;
+            top: 5%;
+        }
+        .F {
+            left: -40px;
+        }
+        ._nav_list {
+            list-style-type: none;
+            display: inline;
+        }
+        ._nav_list li {
+            display: inline;
+            margin: 10px !important;
+        }
+        ._nav_list li a {
+            color: white;
+        }
+        ._call_row {
+            top: 10px !important;
+        }
+    </style>
+    <div class="container-fluid _navbar">
+        <div class="row">
+            <div class="col-lg-2 pl-lg-5p">
+                <img class="img-fluid _logo" src="<?php bloginfo('stylesheet_directory');?>/images/home/logo.png"/>
+            </div>
+            <div class="col-lg-8 pt-lg-2p F">
+                <ul class="_nav_list">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">QUALITY</a></li>
+                    <li><a href="#">SUSTAINABILITY</a></li>
+                    <li><a href="#">NEWS & UPDATES</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 _call_row">
+                <style>
+                    ._call{
+                        position: absolute;
+                        padding: 12% 19%;
+                        background: url("<?php bloginfo('stylesheet_directory');?>/images/home/call.png");
+                        background-size: 105% 64% !important;
+                        background-repeat: no-repeat !important;
+                        background-position: center !important;
+                        left: -34%;
+                    }
+                    .num {
+                        right: 10%;
+                    }
+                </style>
+                <div class="_call font-white text-center">
+                    <a class="num">(62-21) 5793 6700</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
