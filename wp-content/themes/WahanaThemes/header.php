@@ -53,7 +53,7 @@
             color: white;
         }
         ._call_row {
-            top: 10px !important;
+            top: 8px !important;
         }
     </style>
     <div class="container-fluid _navbar" id="navbar_wahana">
