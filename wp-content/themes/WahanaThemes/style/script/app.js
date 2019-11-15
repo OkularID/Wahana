@@ -1,3 +1,12 @@
+/*Tab*/
+$(document).ready(function() {
+  $('ul.nav-pills li:first').addClass('active');
+  $('.tab-content .tab-pane:first').addClass('active');
+  $('.tab-content .tab-pane:first').addClass('show');
+});
+
+
+
 // Mobile NavBar
 $(document).ready(function() {
   // Transition effect for navbar
@@ -27,12 +36,12 @@ $(document).ready(function() {
 $(document).ready(function() {
 
   // About Carousel
-  $('.about-slider-carousel').addClass('owl-carousel owl-theme').owlCarousel({
+  $('.wahana_carousel').addClass('owl-carousel owl-theme').owlCarousel({
     margin: 0,
     responsiveClass: true,
     loop: true,
     autoplay: true,
-    navText: ["<img src='https://corpus.co.id/staging/wp-content/themes/CorpusID/images/homepage/arrow-left-box.png'>","<img src='https://corpus.co.id/staging/wp-content/themes/CorpusID/images/homepage/arrow-right-box.png'>"],
+    navText: ["<img src='http://localhost/wahana/wp-content/themes/WahanaThemes/images/home/partials/left.png'>","<img src='http://localhost/wahana/wp-content/themes/WahanaThemes/images/home/partials/right.png'>"],
     responsive:{
       /*Mobile*/
       0: {
